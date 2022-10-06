@@ -27,7 +27,7 @@ export class ListarEmpleadoComponent implements OnInit {
       resp => {
         this.empleados.slice(icontrol, 1);
       });
-      //ToDo revisar esto porque deberia refrescar automaticamente
+      //ToDo revisar esto porque deberia refrescar automaticamente 
       this.ngOnInit();
   }
 
